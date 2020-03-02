@@ -80,6 +80,7 @@ Ruby is an interpreted dynamic programming language. It was created by Yukihiro 
 ```
 ## Loops/Iterators
 ```ruby
+  # Loops
   while expression do
   end
 
@@ -89,6 +90,12 @@ Ruby is an interpreted dynamic programming language. It was created by Yukihiro 
 
   # 0..3  (inclusive) -> 0, 1, 2, 3
   # 0...3 (exclusive) -> 0, 1, 2
+
+  # Iterator(s)
+  foo = [1, 2, 3]
+  foo.each do |x|
+    puts x
+  end
 ```
 ## Functions
 ```ruby
