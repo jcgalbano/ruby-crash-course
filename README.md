@@ -74,14 +74,21 @@ Ruby is an interpreted dynamic programming language. It was created by Yukihiro 
 ```ruby
   num = 5
   if num > 5
+    puts 'Number is greater than 5'
   elsif num < 5
+    puts 'Number is less than 5'
   else
+    puts 'Number is 5'
   end
 ```
 ## Loops/Iterators
 ```ruby
   # Loops
-  while expression do
+
+  counter = 0
+  while counter < 3 do
+    puts counter
+    counter += 1
   end
 
   for x in 0..3 do
@@ -92,6 +99,7 @@ Ruby is an interpreted dynamic programming language. It was created by Yukihiro 
   # 0...3 (exclusive) -> 0, 1, 2
 
   # Iterator(s)
+
   foo = [1, 2, 3]
   foo.each do |x|
     puts x
