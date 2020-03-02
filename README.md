@@ -1,4 +1,9 @@
 # Ruby for Busy People
+## Ruby Interactive Shell
+Type this in the console after installing Ruby.
+```ruby
+  irb
+```
 ## Ruby Code Execution
 ```ruby
   ruby <path-to-your-file.rb>
