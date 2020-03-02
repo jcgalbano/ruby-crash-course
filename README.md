@@ -54,7 +54,7 @@ Ruby is an interpreted dynamic programming language. It was created by Yukihiro 
 | Float      |           1.2             |
 | String     |          'foo'            |
 | Bool       |           true            |
-| Array      |       [1, 2, 'bar']       |
+| Array      |      [ 1, 2, 'bar' ]      |
 | Hash       |  { 'foo'=> 1, :bar => 2 } |
 ## Comments
 ```ruby
